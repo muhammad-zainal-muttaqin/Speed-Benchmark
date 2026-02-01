@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-02-01T20:57:43.117167",
+  "model": "Kimi K2.5 Free",
+  "classification": "Standard",
+  "average_tps": 48.86,
+  "total_tokens": 11698,
+  "total_duration": 151.99,
+  "tests_completed": 6,
+  "tests_total": 6,
+  "results": [
+    {
+      "test_id": 1,
+      "test_name": "Micro (Baseline)",
+      "duration_seconds": 4.12,
+      "characters": 47,
+      "lines": 1,
+      "tokens": 11,
+      "tokens_per_second": 2.67
+    },
+    {
+      "test_id": 2,
+      "test_name": "Small Function",
+      "duration_seconds": 6.76,
+      "characters": 222,
+      "lines": 9,
+      "tokens": 55,
+      "tokens_per_second": 8.13
+    },
+    {
+      "test_id": 3,
+      "test_name": "Medium Class",
+      "duration_seconds": 11.43,
+      "characters": 1536,
+      "lines": 43,
+      "tokens": 384,
+      "tokens_per_second": 33.59
+    },
+    {
+      "test_id": 4,
+      "test_name": "Large System",
+      "duration_seconds": 15.96,
+      "characters": 4666,
+      "lines": 190,
+      "tokens": 1166,
+      "tokens_per_second": 73.07
+    },
+    {
+      "test_id": 5,
+      "test_name": "Very Large System",
+      "duration_seconds": 51.45,
+      "characters": 16319,
+      "lines": 536,
+      "tokens": 4079,
+      "tokens_per_second": 79.29
+    },
+    {
+      "test_id": 6,
+      "test_name": "Massive System",
+      "duration_seconds": 62.27,
+      "characters": 24013,
+      "lines": 751,
+      "tokens": 6003,
+      "tokens_per_second": 96.4
+    }
+  ]
+}

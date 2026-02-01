@@ -1,0 +1,19 @@
+OpenCode LLM Benchmark Report
+======================================================================
+Model: Big Pickle OpenCode Zen
+Date: 2026-02-01T23:52:01.821679
+Classification: Below Average
+
+SUMMARY
+  Average Speed: 27.1 tokens/second
+  Total Tokens: 27,075
+  Total Duration: 1927.44s
+
+Test                      Duration     Tokens       TPS         
+----------------------------------------------------------------------
+Micro (Baseline)          11.34        11           1.0         
+Small Function            9.89         182          18.4        
+Medium Class              24.44        1,594        65.2        
+Large System              95.87        4,225        44.1        
+Very Large System         372.35       9,711        26.1        
+Massive System            1413.55      11,352       8.0         

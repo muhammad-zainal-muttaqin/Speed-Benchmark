@@ -1,0 +1,19 @@
+OpenCode LLM Benchmark Report
+======================================================================
+Model: Trinity Large Preview
+Date: 2026-02-02T00:04:21.545820
+Classification: Below Average
+
+SUMMARY
+  Average Speed: 15.5 tokens/second
+  Total Tokens: 9,891
+  Total Duration: 430.49s
+
+Test                      Duration     Tokens       TPS         
+----------------------------------------------------------------------
+Micro (Baseline)          6.55         9            1.4         
+Small Function            10.72        71           6.6         
+Medium Class              50.32        676          13.4        
+Large System              97.26        1,562        16.1        
+Very Large System         111.14       2,596        23.4        
+Massive System            154.50       4,977        32.2        

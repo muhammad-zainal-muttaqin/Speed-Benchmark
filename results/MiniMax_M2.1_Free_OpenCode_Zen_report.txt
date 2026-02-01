@@ -1,0 +1,19 @@
+OpenCode LLM Benchmark Report
+======================================================================
+Model: MiniMax M2.1 Free OpenCode Zen
+Date: 2026-02-01T21:05:51.717352
+Classification: Standard
+
+SUMMARY
+  Average Speed: 34.1 tokens/second
+  Total Tokens: 8,444
+  Total Duration: 182.82s
+
+Test                      Duration     Tokens       TPS         
+----------------------------------------------------------------------
+Micro (Baseline)          14.33        11           0.8         
+Small Function            11.61        85           7.3         
+Medium Class              22.57        628          27.8        
+Large System              28.61        1,430        50.0        
+Very Large System         49.00        2,728        55.7        
+Massive System            56.70        3,562        62.8        

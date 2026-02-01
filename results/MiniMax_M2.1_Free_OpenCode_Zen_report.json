@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-02-01T21:05:51.717352",
+  "model": "MiniMax M2.1 Free OpenCode Zen",
+  "classification": "Standard",
+  "average_tps": 34.06,
+  "total_tokens": 8444,
+  "total_duration": 182.82,
+  "tests_completed": 6,
+  "tests_total": 6,
+  "results": [
+    {
+      "test_id": 1,
+      "test_name": "Micro (Baseline)",
+      "duration_seconds": 14.33,
+      "characters": 47,
+      "lines": 1,
+      "tokens": 11,
+      "tokens_per_second": 0.77
+    },
+    {
+      "test_id": 2,
+      "test_name": "Small Function",
+      "duration_seconds": 11.61,
+      "characters": 342,
+      "lines": 15,
+      "tokens": 85,
+      "tokens_per_second": 7.32
+    },
+    {
+      "test_id": 3,
+      "test_name": "Medium Class",
+      "duration_seconds": 22.57,
+      "characters": 2513,
+      "lines": 75,
+      "tokens": 628,
+      "tokens_per_second": 27.82
+    },
+    {
+      "test_id": 4,
+      "test_name": "Large System",
+      "duration_seconds": 28.61,
+      "characters": 5722,
+      "lines": 203,
+      "tokens": 1430,
+      "tokens_per_second": 49.98
+    },
+    {
+      "test_id": 5,
+      "test_name": "Very Large System",
+      "duration_seconds": 49.0,
+      "characters": 10912,
+      "lines": 330,
+      "tokens": 2728,
+      "tokens_per_second": 55.67
+    },
+    {
+      "test_id": 6,
+      "test_name": "Massive System",
+      "duration_seconds": 56.7,
+      "characters": 14251,
+      "lines": 412,
+      "tokens": 3562,
+      "tokens_per_second": 62.82
+    }
+  ]
+}

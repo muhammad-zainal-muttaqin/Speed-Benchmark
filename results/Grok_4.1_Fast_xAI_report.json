@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-02-01T21:11:25.465292",
+  "model": "Grok 4.1 Fast xAI",
+  "classification": "Standard",
+  "average_tps": 40.96,
+  "total_tokens": 5556,
+  "total_duration": 110.88,
+  "tests_completed": 6,
+  "tests_total": 6,
+  "results": [
+    {
+      "test_id": 1,
+      "test_name": "Micro (Baseline)",
+      "duration_seconds": 9.88,
+      "characters": 37,
+      "lines": 0,
+      "tokens": 9,
+      "tokens_per_second": 0.91
+    },
+    {
+      "test_id": 2,
+      "test_name": "Small Function",
+      "duration_seconds": 15.68,
+      "characters": 155,
+      "lines": 8,
+      "tokens": 38,
+      "tokens_per_second": 2.42
+    },
+    {
+      "test_id": 3,
+      "test_name": "Medium Class",
+      "duration_seconds": 13.25,
+      "characters": 1769,
+      "lines": 50,
+      "tokens": 442,
+      "tokens_per_second": 33.37
+    },
+    {
+      "test_id": 4,
+      "test_name": "Large System",
+      "duration_seconds": 23.34,
+      "characters": 5648,
+      "lines": 165,
+      "tokens": 1412,
+      "tokens_per_second": 60.5
+    },
+    {
+      "test_id": 5,
+      "test_name": "Very Large System",
+      "duration_seconds": 23.05,
+      "characters": 5630,
+      "lines": 191,
+      "tokens": 1407,
+      "tokens_per_second": 61.04
+    },
+    {
+      "test_id": 6,
+      "test_name": "Massive System",
+      "duration_seconds": 25.68,
+      "characters": 8993,
+      "lines": 318,
+      "tokens": 2248,
+      "tokens_per_second": 87.55
+    }
+  ]
+}

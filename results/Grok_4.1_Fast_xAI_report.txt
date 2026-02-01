@@ -1,0 +1,19 @@
+OpenCode LLM Benchmark Report
+======================================================================
+Model: Grok 4.1 Fast xAI
+Date: 2026-02-01T21:11:25.465292
+Classification: Standard
+
+SUMMARY
+  Average Speed: 41.0 tokens/second
+  Total Tokens: 5,556
+  Total Duration: 110.88s
+
+Test                      Duration     Tokens       TPS         
+----------------------------------------------------------------------
+Micro (Baseline)          9.88         9            0.9         
+Small Function            15.68        38           2.4         
+Medium Class              13.25        442          33.4        
+Large System              23.34        1,412        60.5        
+Very Large System         23.05        1,407        61.0        
+Massive System            25.68        2,248        87.5        

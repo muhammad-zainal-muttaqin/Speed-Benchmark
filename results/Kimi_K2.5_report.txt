@@ -1,0 +1,19 @@
+OpenCode LLM Benchmark Report
+======================================================================
+Model: Kimi K2.5
+Date: 2026-02-01T21:51:33.138054
+Classification: Standard
+
+SUMMARY
+  Average Speed: 45.5 tokens/second
+  Total Tokens: 11,344
+  Total Duration: 165.90s
+
+Test                      Duration     Tokens       TPS         
+----------------------------------------------------------------------
+Micro (Baseline)          5.36         9            1.7         
+Small Function            6.22         69           11.1        
+Medium Class              11.51        476          41.4        
+Large System              30.99        1,989        64.2        
+Very Large System         44.17        3,170        71.8        
+Massive System            67.65        5,631        83.2        

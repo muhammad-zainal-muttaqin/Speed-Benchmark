@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-02-02T00:04:21.545820",
+  "model": "Trinity Large Preview",
+  "classification": "Below Average",
+  "average_tps": 15.51,
+  "total_tokens": 9891,
+  "total_duration": 430.49,
+  "tests_completed": 6,
+  "tests_total": 6,
+  "results": [
+    {
+      "test_id": 1,
+      "test_name": "Micro (Baseline)",
+      "duration_seconds": 6.55,
+      "characters": 37,
+      "lines": 0,
+      "tokens": 9,
+      "tokens_per_second": 1.37
+    },
+    {
+      "test_id": 2,
+      "test_name": "Small Function",
+      "duration_seconds": 10.72,
+      "characters": 284,
+      "lines": 12,
+      "tokens": 71,
+      "tokens_per_second": 6.62
+    },
+    {
+      "test_id": 3,
+      "test_name": "Medium Class",
+      "duration_seconds": 50.32,
+      "characters": 2706,
+      "lines": 77,
+      "tokens": 676,
+      "tokens_per_second": 13.43
+    },
+    {
+      "test_id": 4,
+      "test_name": "Large System",
+      "duration_seconds": 97.26,
+      "characters": 6249,
+      "lines": 216,
+      "tokens": 1562,
+      "tokens_per_second": 16.06
+    },
+    {
+      "test_id": 5,
+      "test_name": "Very Large System",
+      "duration_seconds": 111.14,
+      "characters": 10387,
+      "lines": 332,
+      "tokens": 2596,
+      "tokens_per_second": 23.36
+    },
+    {
+      "test_id": 6,
+      "test_name": "Massive System",
+      "duration_seconds": 154.5,
+      "characters": 19911,
+      "lines": 628,
+      "tokens": 4977,
+      "tokens_per_second": 32.21
+    }
+  ]
+}
